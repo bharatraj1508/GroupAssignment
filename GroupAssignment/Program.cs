@@ -23,11 +23,11 @@ namespace GroupAssignment
                     Component std = CreateStudent();
                     if (group.AddStudent(std))
                     {
-                        Console.WriteLine("Studemt Added successfully");
+                        Console.WriteLine("Studemt Added");
                     }
                     else
                     {
-                        Console.WriteLine("Unable to add student");
+                        Console.WriteLine("Unable to add student to the list");
                     }
                 }
                 if(choice == 2)
