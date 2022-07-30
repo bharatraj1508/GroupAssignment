@@ -27,7 +27,7 @@ namespace GroupAssignment
                     }
                     else
                     {
-                        Console.WriteLine("Unable to add student to the list");
+                        Console.WriteLine("Unable to add student");
                     }
                 }
                 if(choice == 2)
